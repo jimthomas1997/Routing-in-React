@@ -9,14 +9,38 @@ function App() {
   return (
     <Router>
      <div>
+     
        <Nav />
+       
+       <aside class="fixed"> 
+       <div class="menu-box ">
+      
+               <ul>
+									<li><a href="#intro">Introduction</a></li>
+									<li><a href="#start">Contributors</a></li>
+									<li><a href="#usecase">Use Case</a></li>
+									<li><a href="#tech">Technology Stack</a></li>
+									<li><a href="#setup">Setup & Installation</a></li>
+									<li><a href="#blockchain">Blockchain</a></li>
+									<li><a href="#hardware">Hardware</a></li>
+									<li><a href="#api">APIs</a></li>
+								</ul>
+       </div>
+      </aside>
+      
+      <div class="content">
       <Switch>
        <Route path="/" exact component={Home} />
        <Route path="/about" component={About} />
        <Route path="/main" component={Main} />
       </Switch>
       </div>
+     </div>
+      
+
+      
     </Router>
+    
   );
 }
 

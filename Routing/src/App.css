@@ -25,3 +25,43 @@ nav{
   color:white;
   text-decoration: none;
 }
+
+aside {
+	color: var(--bg-color);;
+	float: left;
+	/* padding-left: 15px; */
+	width: 285px;
+}
+
+.fixed {
+	position: fixed;
+
+}
+
+.content{
+  margin-left: 285px;
+}
+
+.menu-box {
+	padding: 20px;
+	background: #34495e;
+}
+
+.menu-box ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu-box li {
+	display: block;
+}
+
+.menu-box li a {
+	display: block;
+	padding: 15px 20px;
+	margin-left: -20px;
+	margin-right: -20px;
+	color: #fff;
+	border-bottom: 1px solid #314559;
+}
+
